@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>简历-屠若尘</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<script type="text/javascript">
+		function preview(oper) {
+			if (oper < 10) {
+				bdhtml = window.document.body.innerHTML;//获取当前页的html代码
+				sprnstr = "<!--startprint" + oper + "-->";//设置打印开始区域
+				eprnstr = "<!--endprint" + oper + "-->";//设置打印结束区域
+				prnhtml = bdhtml.substring(bdhtml.indexOf(sprnstr) + 18); //从开始代码向后取html
+				prnhtml = prnhtml.substring(0, prnhtml.indexOf(eprnstr));//从结束代码向前取html
+				window.document.body.innerHTML = prnhtml;
+				window.print();
+				window.document.body.innerHTML = bdhtml;
+
+			} else {
+				window.print();
+			}
+
+		}
+	</script>
+</head>
+
+<body>
+	<!--[if IE]><p class="kill-ie">微软都放弃了IE，为啥你却还不放弃？</p><![endif]-->
+	<a class="pdf" onclick="preview(1)"><i class="iconfont icon-pdf"></i></a>
+	<!--startprint1-->
+	<div class="content">
+		<header class="content-hd">
+			<div class="header-left">
+				<section class="info">
+					<div class="name">
+						<h1>屠若尘</h1>
+					</div>
+					<div class="en-name">
+						<h3>TURUOCHEN</h3>
+					</div>
+					<div class="job">
+						<h2>软件工程师</h2>
+					</div>
+				</section>
+			</div>
+			<div class="header-right">
+				<section class="contact">
+					<ul>
+						<li><a><i class="iconfont icon-calendar"></i><span class="contact-link">1995.1</span></a></li>
+						<li><a href="tel:17607190645" target="_blank"><i class="iconfont icon-phone"></i><span class="contact-link">17607190645</span></a></li>
+						<li><a href="mailto:rc452860@gmail.com" target="_blank"><i class="iconfont icon-email"></i><span class="contact-link">rc452860@gmail.com</span></a></li>
+						<li><a href="https://github.com/rc452860" target="_blank"><i class="iconfont icon-blog"></i><span class="contact-link">https://github.com/rc452860</span></a></li>
+					</ul>
+				</section>
+			</div>
+		</header>
+		<div class="content-bd">
+			<div class="content-left">
+				<section class="education">
+					<header class="section-hd">
+						<span class="section-title-l"></span>
+						<h2 class="section-title">教育背景</h2>
+						<span class="section-title-r"></span>
+					</header>
+					<div class="section-bd">
+						<div class="item">
+							<header class="item-hd">
+								<span class="item-time">2017年毕业</span>
+								<h2 class="item-name">湖北理工学院<i class="iconfont icon-dot"></i>计算机科学与技术</h2>
+								<span class="item-more">本科</span>
+							</header>
+						</div>
+					</div>
+				</section>
+				<section class="practice">
+					<header class="section-hd">
+						<span class="section-title-l"></span>
+						<h2 class="section-title">实践经历</h2>
+						<span class="section-title-r"></span>
+					</header>
+					<div class="section-bd">
+						<div class="item">
+							<header class="item-hd">
+								<span class="item-time">2016.10&nbsp;&nbsp;-&nbsp;&nbsp;~</span>
+								<h2 class="item-name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;湖北理工学院<i class="iconfont icon-dot"></i>蓝山工作室</h2>
+							</header>
+							<div class="item-bd">
+								<p class="section-content">实验室项目开发/校园VPN搭建,主要任务利用开源项目pptpd在Linux服务器上搭建校园VPN使用FreeRadius作为计费系统。</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="experience">
+					<header class="section-hd">
+						<span class="section-title-l"></span>
+						<h2 class="section-title">项目经验</h2>
+						<span class="section-title-r"></span>
+					</header>
+					<div class="section-bd">
+						<div class="item">
+							<header class="item-hd" />
+							<span class="item-time">2016.06</span>
+							<h2 class="item-name">追风巴士</h2>
+							<span class="item-more"></span>
+							</header>
+							<div class="item-bd">
+								<p class="section-content">
+									项目为武汉亚投新能科技有限公司电动巴士运营项目， 项目使用
+									<em>Spring Boot</em>作为后台框架，使 用
+									<em>Vue</em>开发后台管理界面 负责追风巴士后台服务器开发 实现后台用户管理、车辆线路管理、商品信息发布、活动发布 负责支付宝SDK 微信SDK接入 负责短信验证SDK接入 负责动态口令验证开发（OTOP动态口令技术的变种）
+									负责账单模块开发（Mybatis增删改查） 负责扫码终端数据处理（提供Restful Api供树莓派调用） 利用GeoHash算法进行按GPS范围查询
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<header class="item-hd" />
+							<span class="item-time">2015.10</span>
+							<h2 class="item-name">武汉星竹源科技有限公司<i class="iconfont icon-dot"></i>襄州市农业基点调查项目</h2>
+							<span class="item-more"></span>
+							</header>
+							<div class="item-bd">
+								<p class="section-content">
+									项目为襄州市农业基点调查数据处理项目，原先使用excel来处理后来因为Excel比较繁琐，而且容易出错改为网上填报数据。 主要任务，需求调查，需求跟踪，项目开发，项目使用
+									<em>Spring MVC</em>开发后台管理系统，数据库使用<em>mongodb</em> 来存储。前台开发使用
+									<em>EasyUi</em>和<em>jQuery</em>来完成数据的计算以及数据的绑定。
+								</p>
+							</div>
+						</div>
+						<div class="item">
+							<header class="item-hd" />
+							<span class="item-time">2015.03</span>
+							<h2 class="item-name">
+								</i>愿者上钩<i class="iconfont icon-dot"></i>游戏界面开发</span>
+								</a>
+							</h2>
+							<span class="item-more"></span>
+							</header>
+							<div class="item-bd">
+								<p class="section-content">
+									项目是一款益智类游戏，使用手机重力传感器来控制钩子的方向。主要任务负责游戏内部界面开发，利用<em>xml</em>对地图物品的摆放， 游戏使用
+									<em>cocos2dx2.4</em>开发，界面动画均为帧动画。地图数据使用<em>libxml</em>读取。
+								</p>
+							</div>
+						</div>
+
+
+					</div>
+				</section>
+			</div>
+			<div class="content-right">
+				<section class="skill">
+					<header class="section-hd">
+						<span class="section-title-l"></span>
+						<h2 class="section-title">专业技能</h2>
+						<span class="section-title-r"></span>
+					</header>
+					<div class="section-bd">
+						<ul class="section-list">
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i><em>Java</em>基础扎实，理解<em>IO</em>、多线程、集合等基础框架，对<em>JVM</em>有一定了解，如<em>GC</em>、<em>ClassLoader</em>机制</p>
+							</li>
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>掌握常用设计模式，熟悉<em>OOP</em>编程，对<em>AOP</em>有一定了解，注重程序运行效率、代码规范及项目的可维护性</p>
+							</li>
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>熟练运用<em>MVC</em>模式，掌握<em>Spring</em>、<em>MyBatis</em>主流框架，并了解其运作原理</p>
+							</li>
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>对<em>MySQL</em>实战开发有较好经验，了解<em>NoSQL</em>相关概念，掌握<em>MongoDB</em>和<em>Redis</em>的基本用法</p>
+							</li>
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>熟悉<em>Linux</em>系统，熟练运用常见<em>Linux</em>命令</p>
+							</li>
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>熟练使用<em>Maven</em>进行依赖管理、<em>Git</em>进行版本控制和代码托管、<em>Markdown</em>进行文档编写，并以<em>macOS</em>、<em>Linux</em>、<em>IDEA</em>作为日常开发环境，了解项目开发流程和开发调试工具的使用</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="award">
+					<header class="section-hd">
+						<span class="section-title-l"></span>
+						<h2 class="section-title">奖项证书</h2>
+						<span class="section-title-r"></span>
+					</header>
+					<div class="section-bd">
+						<div class="item">
+							<header class="item-hd">
+								<span class="item-time">2015.06</span>
+								<h2 class="item-name">全国软件设计大赛<i class="iconfont icon-dot"></i>最具潜力奖</h2>
+								<span class="item-more"></span>
+							</header>
+						</div>
+					</div>
+				</section>
+				<section class="certification">
+					<header class="section-hd">
+						<span class="section-title-l"></span>
+						<h2 class="section-title">技能认证</h2>
+						<span class="section-title-r"></span>
+					</header>
+					<div class="section-bd">
+						<div class="item">
+							<header class="item-hd">
+								<span class="item-time"></span>
+								<h2 class="item-name">英语水平</h2>
+								<span class="item-more">CET4</span>
+							</header>
+						</div>
+						<div class="item">
+							<header class="item-hd">
+								<span class="item-time"></span>
+								<h2 class="item-name">证书</h2>
+								<span class="item-more">.net软件开发工程师</span>
+							</header>
+						</div>
+					</div>
+				</section>
+				<section class="evaluation">
+					<header class="section-hd">
+						<span class="section-title-l"></span>
+						<h2 class="section-title">自我评价</h2>
+						<span class="section-title-r"></span>
+					</header>
+					<div class="section-bd">
+						<ul class="section-list">
+							<li>
+								<p class="section-content"><i class="iconfont icon-dot"></i>主动学习，有较强逻辑思维能力，热爱编程，喜欢接触新的事物</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+		</div>
+		<footer>
+			<a class="footer-link" href="#" target="_blank"><i class="iconfont icon-link"></i>TURUOCHEN RESUME</a>
+		</footer>
+	</div>
+	<!--endprint1-->
+	<!--
+    <footer>
+        <a class="footer-link"></a>
+    </footer>
+     -->
+</body>
+
+</html>
