@@ -222,6 +222,7 @@ a {
 .content-bd .content-right {
   width: 50%;
   min-height: 962px;
+
 }
 /* line 157, style.scss */
 .content-bd .content-left {
@@ -233,6 +234,10 @@ a {
   float: right;
   background-color: #058284;
   color: #fff;
+  position: absolute;
+  right: 0;
+  top: 320px;
+  bottom: 0;
 }
 /* line 165, style.scss */
 .content-bd .content-right .section-title {
