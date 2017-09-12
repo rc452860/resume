@@ -176,6 +176,10 @@ a {
 /* line 111, style.scss */
 .content-hd .header-left .job h2 {
   font-size: 25px;
+  line-height: 1.5;
+}
+.content-hd .header-left .exp h3 {
+  font-size: 16px;
   line-height: 1;
 }
 /* line 117, style.scss */
